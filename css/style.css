@@ -43,14 +43,13 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 body{
 	height: 5700px;
-	width: 100%;
+	width: 100vw;
 	display: flex;
 	justify-content: center;
-
 }
 
 header{
-	width: 100%;
+	width: 100vw;
 	height: 1100px;
 	display: flex;
 	justify-content: center;
@@ -62,7 +61,7 @@ header{
 	position: relative;
 	top: 201px;
 	height: 527px;
-	width: 100%;
+	width: 1440px;
 }
 
 .logo{
@@ -261,8 +260,8 @@ main{
 
 .all_you_need{
 	position: absolute;
-	right: 0px;
 	margin-top: 780px;
+	width: 1440px;
 }
 
 .all_you_need_block{
